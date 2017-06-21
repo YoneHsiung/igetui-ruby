@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'igetui/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "igetui-ruby"
+  spec.name          = "igetui-ruby-nolock"
   spec.version       = IGeTui::VERSION
-  spec.authors       = ["Victor Wang"]
-  spec.email         = ["QQ: 22674812"]
+  spec.authors       = ["yone hsiung"]
+  spec.email         = ["QQ: 171842474"]
   spec.summary       = "igetui.com ruby sdk"
   spec.description   = "ruby-sdk of igetui.com push notification service"
-  spec.homepage      = "https://github.com/wjp2013/igetui-ruby"
+  spec.homepage      = "https://github.com/YoneHsiung/igetui-ruby.git"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
